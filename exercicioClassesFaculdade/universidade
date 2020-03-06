@@ -1,0 +1,8 @@
+public class Universidade{
+    String nome;
+    String cidade;
+    String estado;
+    public void exibedados(){
+        System.out.println("Nome da universidade: "+nome+"  Cidade: "+cidade+"  Estado: "+estado);
+    }  
+}
