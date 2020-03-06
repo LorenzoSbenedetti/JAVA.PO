@@ -1,0 +1,7 @@
+public class Aluno{
+    String nome;
+    String curso;
+    public void exibedados2(){
+        System.out.println("Nome do aluno: "+nome+"  Curso: "+curso);
+    }
+}
