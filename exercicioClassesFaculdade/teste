@@ -1,0 +1,15 @@
+public class Teste{
+    public static void main(String[] args) {
+        Universidade universidade1 = new Universidade();
+        universidade1.nome = "Unicentro";
+        universidade1.cidade = "Guarapuava";
+        universidade1.estado = "Parana";
+        universidade1.exibedados();
+        
+        
+        Aluno aluno1 = new Aluno();
+        aluno1.nome = "Lorenzo";
+        aluno1.curso = "Ciencias da computação";
+        aluno1.exibedados2();
+    }
+}
